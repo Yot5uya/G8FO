@@ -1,7 +1,7 @@
  
  ​#!​/usr/bin/env bash 
  
- ​BRANCH=​"​G8FO"
+ ​BRANCH=​"​main"
 
  ​SCHED_PERIOD=​"​$((​1​ ​*​ ​1000​ ​*​ ​1000​))​" 
  
