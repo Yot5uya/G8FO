@@ -1,5 +1,7 @@
  
  ​#!​/usr/bin/env bash 
+
+ UINT_MAX="4294967295"
  
  ​BRANCH=​"​main"
 
@@ -127,7 +129,7 @@
   
  ​for​ ​queue​ ​in​ /sys/block/​*​/queue 
  ​do 
- ​        ​#​ Kekekeke
+ ​        ​#​ IO tweak
  ​        avail_scheds=​"​$(​cat ​"​$queue​/scheduler​"​)​" 
  ​        ​for​ ​sched​ ​in​ cfq noop kyber bfq mq-deadline none 
  ​        ​do 
